@@ -932,10 +932,30 @@ h1, h2, h3, h4, h5,
 }
 
 .site-blocks-cover p {
-    color: white;
-    font-size: 1.7rem;
-    line-height: 1.5;
-    font-weight: 500;
+        color: white;
+        font-size: 1.7rem;
+        line-height: 1.5;
+        font-weight: 350;
+    }
+
+@media screen and (max-width: 768px) {
+    .site-blocks-cover p {
+        color: white;
+        font-size: 1.6rem;
+        line-height: 1.5;
+        font-weight: 350;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .site-blocks-cover p {
+        margin-left: 20px;
+        margin-right: 20px;
+        color: white;
+        font-size: 1.4rem;
+        line-height: 1.5;
+        font-weight: 300;
+    }
 }
 
 .site-blocks-cover .intro-text {
